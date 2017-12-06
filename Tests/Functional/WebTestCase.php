@@ -2,10 +2,10 @@
 
 namespace Alex\MultisiteBundle\Tests\Functional;
 
-use Doctrine\Common\Annotations\AnnotationRegistry;
 use Symfony\Component\HttpKernel\Client;
+use PHPUnit\Framework\TestCase;
 
-abstract class WebTestCase extends \PHPUnit_Framework_TestCase
+abstract class WebTestCase extends TestCase
 {
     static public function createClient($fixture = 'DemoApp')
     {

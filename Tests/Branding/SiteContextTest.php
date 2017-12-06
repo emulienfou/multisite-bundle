@@ -4,8 +4,9 @@ namespace Alex\MultisiteBundle\Tests\Branding;
 
 use Alex\MultisiteBundle\Branding\Branding;
 use Alex\MultisiteBundle\Branding\SiteContext;
+use PHPUnit\Framework\TestCase;
 
-class SiteContextTest extends \PHPUnit_Framework_TestCase
+class SiteContextTest extends TestCase
 {
     public function testGetOption()
     {

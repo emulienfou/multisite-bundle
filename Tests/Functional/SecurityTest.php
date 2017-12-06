@@ -2,8 +2,6 @@
 
 namespace Alex\MultisiteBundle\Tests\Functional;
 
-use Alex\MultisiteBundle\Tests\Functional\WebTestCase;
-
 class SecurityTest extends WebTestCase
 {
     public function testLogin()

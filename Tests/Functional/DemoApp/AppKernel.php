@@ -3,7 +3,6 @@
 namespace Alex\MultisiteBundle\Tests\Functional\DemoApp;
 
 use Alex\MultisiteBundle\Tests\Functional\AbstractAppKernel;
-use Alex\MultisiteBundle\Tests\Functional\DemoApp\DemoBundle\AlexMultisiteDemoBundle;
 
 class AppKernel extends AbstractAppKernel
 {

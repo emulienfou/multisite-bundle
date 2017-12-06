@@ -2,8 +2,6 @@
 
 namespace Alex\MultisiteBundle\Tests\Functional;
 
-use Alex\MultisiteBundle\Tests\Functional\WebTestCase;
-
 class TemplatingTest extends WebTestCase
 {
     public function testTemplateOverride()

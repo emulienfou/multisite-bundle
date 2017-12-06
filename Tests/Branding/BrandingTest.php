@@ -3,8 +3,9 @@
 namespace Alex\MultisiteBundle\Tests\Branding;
 
 use Alex\MultisiteBundle\Branding\Branding;
+use PHPUnit\Framework\TestCase;
 
-class BrandingTest extends \PHPUnit_Framework_TestCase
+class BrandingTest extends TestCase
 {
     public function testName()
     {

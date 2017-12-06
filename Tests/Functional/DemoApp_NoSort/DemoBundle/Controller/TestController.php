@@ -3,7 +3,6 @@
 namespace Alex\MultisiteBundle\Tests\Functional\DemoApp_NoSort\DemoBundle\Controller;
 
 use Alex\MultisiteBundle\Annotation\Route;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 
