@@ -2,7 +2,6 @@
 
 namespace Alex\MultisiteBundle\Annotation;
 
-use Alex\MultisiteBundle\Branding\SiteContext;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route as BaseRoute;
 
 /**
