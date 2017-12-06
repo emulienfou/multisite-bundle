@@ -23,6 +23,7 @@ class MultisiteLoader extends \Twig_Loader_Filesystem
      * Constructs the loader.
      *
      * @param \Twig_LoaderInterface $loader a twig loader
+     * @param SiteContext           $siteContext
      */
     public function __construct(\Twig_LoaderInterface $loader, SiteContext $siteContext)
     {
@@ -52,7 +53,7 @@ class MultisiteLoader extends \Twig_Loader_Filesystem
     /**
      * {@inheritdoc}
      */
-    protected function findTemplate($name)
+    protected function findTemplate($name, $throw = true)
     {
         return $this->loader->findTemplate($name);
     }
